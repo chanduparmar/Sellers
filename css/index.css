@@ -1,0 +1,96 @@
+   div.input-field input[type=text]:focus {
+     border-bottom: 1px solid black;
+     box-shadow: 0 1px 0 0 black;
+   }
+   /* valid color */
+   div.input-field input[type=text].valid {
+     border-bottom: 1px solid #ffffff;
+     box-shadow: 0 1px 0 0 #ffffff;
+   }
+    div.input-field input[type=text].invalid {
+     border-bottom: 1px solid #ffffff;
+     box-shadow: 0 1px 0 0 #ffffff;
+   }
+    div.input-field input[type=email].valid {
+     border-bottom: 1px solid #ffffff;
+     box-shadow: 0 1px 0 0 #ffffff;
+   }
+   /* invalid color */
+  
+   /* icon prefix focus color */
+   div.input-field .prefix.active {
+     color: #ffffff;
+   }
+   .slider .indicators{
+   	display: none;
+        }
+        .slider-side{
+            height: 505px !important;
+
+        }
+        .slides-side{
+          height: 505px !important;
+        }
+    
+        img.responsive-img-pro  {
+    max-width: 150px !important;
+ 
+}
+ img.responsive-img-contain {
+    max-width: 170px !important;
+ }
+.card-color{
+  background-color: #1F1A17;
+}
+.verti-line {
+        background: #1F1A17;
+    position: absolute;
+    height: 100%;
+    z-index: -1;
+    width: 4px;
+    top: 65em;
+    left: -39px;
+    right: 0;
+    margin: 4px auto;
+    .input-border{
+  border: solid 1px !important;
+  padding: 16px !important;
+}
+.meddon{
+  font-family: 'Meddon', cursive;
+}
+img{
+  background-repeat: norepeat;
+    -webkit-animation: myfirst 20s; /* Chrome, Safari, Opera */
+    animation: myfirst 2000;
+    animation-play-state: running;
+    -webkit-animation-play-state: running;
+ 
+}
+nav .brand-logo{
+  color:orange;
+  font-family: 'Meddon', cursive;
+  margin:5px 280px 2px 0;
+}
+
+@-webkit-keyframes myfirst {
+    from {
+    background-position: bottom center;
+    background-size: cover;
+    }
+    to { 
+      background-position: top center;
+      background-size: cover;
+    }
+}
+ .btn
+   {
+    color : #000;
+    background-color: #ffffff;
+        letter-spacing: 2.5px;
+   }
+   .btn:hover
+{
+background-image:none;
+background-color:#757575;
+}

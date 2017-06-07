@@ -1,0 +1,106 @@
+ 	.input-field input[type=text]:focus {
+     border-bottom: 1px solid #ffffff;
+     box-shadow: 0 1px 0 0 #ffffff;
+   }
+   	.input-field input[type=email]:focus {
+     border-bottom: 1px solid #ffffff;
+     box-shadow: 0 1px 0 0 #ffffff;
+   }
+
+  .input-field input[type=password]:focus {
+     border-bottom: 1px solid #ffffff;
+     box-shadow: 0 1px 0 0 #ffffff;
+   }   
+
+    .input-field input[type=text]:focus + label {
+     color: #ffffff;
+   }
+   .input-field input[type=email]:focus + label {
+     color: #ffffff;
+   }
+    .input-field input[type=password]:focus + label {
+     color: #ffffff;
+   }
+   .input-field .prefix.active {
+     color: #ffffff;
+   }
+   .input-field label {
+     color: #ffffff;
+   }
+   .btn
+   {
+    color : #000;
+    background-color: #ffffff;
+        letter-spacing: 2.5px;
+   }
+   .btn:hover
+{
+background-image:none;
+background-color:#757575;
+}
+.side-nav{
+  position: relative !important;
+     box-shadow: 0 2px 5px 0 rgb(255, 255, 255),0 2px 10px 0 rgb(255, 255, 255);
+         
+
+}
+.input-border{
+  border: solid 1px !important;
+  padding: 16px !important;
+}
+
+   .card-color{
+      background-color: #1F1A17;
+    }
+
+    .side-nav a{
+      color: white;
+    }
+    .li-color{
+      background-color: #1F1A17;
+      border: solid 1px;
+      size: 1px;
+    }
+    .card-panel {
+      box-shadow:0 2px 5px 0 rgba(255, 255, 255, 0.16),0 2px 10px 0 rgba(255, 255, 255, 0.12);
+      .divider{
+        position:absolute;
+        left:50%;
+        top:10%;
+        bottom:10%;
+        border-left:1px solid white;
+      }
+
+/*div.sidenav ul{
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 15%;
+  background-color : #f1f1f1;
+  height: 100%;
+  position: fixed;
+  overflow: auto;
+ border: 1px solid #555;
+}
+div.sidenav li a{
+  display: block;
+  color: #000;
+  padding: 8px 0 8px 16px;
+  text-decoration: none;
+text-align: center;
+    border-bottom: 1px solid #555;
+
+}
+li:last-child {
+    border-bottom: none;
+}
+div.sidenav li a:hover{
+  background-color: #555;
+  color: white;
+}
+ div.sidenav .active{
+  background-color: #4CAF50;
+  color: white;
+}
+       
+     */
